@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #282828;
+    padding: 10px 0 10px 0;
+}
+
+.header__wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 30px;
+    height: auto;
+}

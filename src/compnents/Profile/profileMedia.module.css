@@ -1,0 +1,48 @@
+.profile__media {
+    padding: 1% 0 1% 0;
+}
+
+.profile__media_inner {
+    height: 90%;
+    background-color: #282828;
+    border-radius: 15px;
+}
+
+.profile__media_inner nav{
+    padding: 20px 0 0 20px;
+}
+
+.profile__media_inner nav:last-child {
+    margin-right: 0;
+}
+
+.profile__media_inner nav button{
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin-right: 5px;
+    color: #bdbdbd;
+    padding: 5px;
+}
+
+.profile__media_inner nav button:hover{
+    background-color: #646464;
+    cursor: pointer;
+}
+
+.profile__media_photos {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    justify-content: space-between;
+}
+/*НАДО ПРАВИТЬ */
+.profile__media_photos img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+/*НАДО ПРАВИТЬ */
